@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Grid Classes</title>
+    <link rel="stylesheet" href="reset.css" />
+    <style>
+      /* stylelint-disable block-no-empty */
+      body {
+        font-family: sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 992px;
+        margin: auto;
+      }
+
+      .row {
+        width: 100%;
+        display: flex;
+        margin-bottom: 1rem;
+      }
+
+      .column {
+        width: calc(100% / 3);
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+      img {
+        width: 100%;
+        height: 450px;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Indiana Jones</h1>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <img src="images/raiders.jpg" alt="man creates fire" />
+          <h3>Raiders of the Lost Arc</h3>
+          <p>
+            Lucas conceived Raiders of the Lost Ark in the early 1970s. Seeking
+            to modernize the serial films of the early 20th-century, he
+            developed the idea further with Kaufman, who suggested the Ark as
+            the film's goal. Lucas eventually focused on developing his 1977
+            space opera Star Wars. Development on Raiders of the Lost Ark
+            resumed that year when he shared the idea with Spielberg who joined
+            the project several months later. While the pair had ideas for
+            notable scenes in the film, they hired Kasdan to fill in the gaps
+            between them. Principal photography began in June 1980 on a $20
+            million budget. Filming took place on sets at Elstree Studios,
+            England, and on location in La Rochelle, France, Tunisia, Hawaii and
+            California.
+          </p>
+        </div>
+        <div class="column">
+          <img src="images/temple.jpg" alt="british bronze age" />
+          <h3>Temple of Doom</h3>
+          <p>
+            Not wishing to feature the Nazis as the villains again, George
+            Lucas, executive producer and co-writer, decided to regard this film
+            as a prequel. Three plot devices were rejected before Lucas wrote a
+            film treatment that resembled the final storyline. Lawrence Kasdan,
+            Lucas's collaborator on Raiders of the Lost Ark, turned down the
+            offer to write the script, and Willard Huyck and Gloria Katz were
+            hired as his replacements, who had previously worked with Lucas on
+            American Graffiti.
+          </p>
+        </div>
+        <div class="column">
+          <img src="images/crusade.png" alt="british iron age" />
+          <h3>The Last Crusade</h3>
+          <p>
+            Indiana Jones and the Last Crusade is a 1989 American
+            action-adventure film directed by Steven Spielberg, from a story
+            co-written by executive producer George Lucas. It is the third
+            installment in the Indiana Jones franchise. Harrison Ford returned
+            in the title role, while his father is portrayed by Sean Connery.
+            Other cast members featured include Alison Doody, Denholm Elliott,
+            Julian Glover, River Phoenix, and John Rhys-Davies. In the film, set
+            largely in 1938, Indiana searches for his father, a Holy Grail
+            scholar, who has been kidnapped by Nazis.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
